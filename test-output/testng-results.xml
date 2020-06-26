@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30544" started-at="2020-06-26T20:18:01 IST" finished-at="2020-06-26T20:18:32 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30544" started-at="2020-06-26T20:18:01 IST" finished-at="2020-06-26T20:18:32 IST">
+      <class name="GoogleGit.googleclass">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:GoogleGit.googleclass@1d29cf23]" name="setUp" is-config="true" duration-ms="15380" started-at="2020-06-26T20:18:01 IST" finished-at="2020-06-26T20:18:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleclasstest()[pri:1, instance:GoogleGit.googleclass@1d29cf23]" name="googleclasstest" duration-ms="23" started-at="2020-06-26T20:18:17 IST" finished-at="2020-06-26T20:18:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleclasstest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:GoogleGit.googleclass@1d29cf23]" name="setUp" is-config="true" duration-ms="13520" started-at="2020-06-26T20:18:17 IST" finished-at="2020-06-26T20:18:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:1, instance:GoogleGit.googleclass@1d29cf23]" name="tearDown" duration-ms="1508" started-at="2020-06-26T20:18:30 IST" finished-at="2020-06-26T20:18:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- GoogleGit.googleclass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
