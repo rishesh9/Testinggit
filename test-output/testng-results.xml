@@ -1,29 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="4" total="7" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="30544" started-at="2020-06-26T20:18:01 IST" finished-at="2020-06-26T20:18:32 IST">
+  <suite name="Suite" duration-ms="31" started-at="2020-06-26T15:54:36Z" finished-at="2020-06-26T15:54:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="30544" started-at="2020-06-26T20:18:01 IST" finished-at="2020-06-26T20:18:32 IST">
-      <class name="GoogleGit.googleclass">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:GoogleGit.googleclass@1d29cf23]" name="setUp" is-config="true" duration-ms="15380" started-at="2020-06-26T20:18:01 IST" finished-at="2020-06-26T20:18:17 IST">
+    <test name="Test" duration-ms="31" started-at="2020-06-26T15:54:36Z" finished-at="2020-06-26T15:54:36Z">
+      <class name="GoogleGit.testB">
+        <test-method status="PASS" signature="beforeClassB()[pri:0, instance:GoogleGit.testB@47c62251]" name="beforeClassB" is-config="true" duration-ms="0" started-at="2020-06-26T21:24:36Z" finished-at="2020-06-26T21:24:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="googleclasstest()[pri:1, instance:GoogleGit.googleclass@1d29cf23]" name="googleclasstest" duration-ms="23" started-at="2020-06-26T20:18:17 IST" finished-at="2020-06-26T20:18:17 IST">
+        </test-method> <!-- beforeClassB -->
+        <test-method status="PASS" signature="beforeClassA()[pri:0, instance:GoogleGit.testB@47c62251]" name="beforeClassA" is-config="true" duration-ms="0" started-at="2020-06-26T21:24:36Z" finished-at="2020-06-26T21:24:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- googleclasstest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:GoogleGit.googleclass@1d29cf23]" name="setUp" is-config="true" duration-ms="13520" started-at="2020-06-26T20:18:17 IST" finished-at="2020-06-26T20:18:30 IST">
+        </test-method> <!-- beforeClassA -->
+        <test-method status="PASS" signature="letTestA()[pri:0, instance:GoogleGit.testB@47c62251]" name="letTestA" duration-ms="1" started-at="2020-06-26T21:24:36Z" finished-at="2020-06-26T21:24:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="tearDown()[pri:1, instance:GoogleGit.googleclass@1d29cf23]" name="tearDown" duration-ms="1508" started-at="2020-06-26T20:18:30 IST" finished-at="2020-06-26T20:18:32 IST">
+        </test-method> <!-- letTestA -->
+        <test-method status="PASS" signature="beforeMethodA()[pri:0, instance:GoogleGit.testB@47c62251]" name="beforeMethodA" is-config="true" duration-ms="0" started-at="2020-06-26T21:24:36Z" finished-at="2020-06-26T21:24:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- GoogleGit.googleclass -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- beforeMethodA -->
+        <test-method status="PASS" signature="beforeMethodB()[pri:0, instance:GoogleGit.testB@47c62251]" name="beforeMethodB" is-config="true" duration-ms="0" started-at="2020-06-26T21:24:36Z" finished-at="2020-06-26T21:24:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodB -->
+        <test-method status="PASS" signature="afterMethodA()[pri:0, instance:GoogleGit.testB@47c62251]" name="afterMethodA" is-config="true" duration-ms="1" started-at="2020-06-26T21:24:36Z" finished-at="2020-06-26T21:24:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodA -->
+        <test-method status="PASS" signature="afterMethodB()[pri:0, instance:GoogleGit.testB@47c62251]" name="afterMethodB" is-config="true" duration-ms="0" started-at="2020-06-26T21:24:36Z" finished-at="2020-06-26T21:24:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodB -->
+        <test-method status="PASS" signature="beforeMethodA()[pri:0, instance:GoogleGit.testB@47c62251]" name="beforeMethodA" is-config="true" duration-ms="0" started-at="2020-06-26T21:24:36Z" finished-at="2020-06-26T21:24:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodA -->
+        <test-method status="PASS" signature="beforeMethodB()[pri:0, instance:GoogleGit.testB@47c62251]" name="beforeMethodB" is-config="true" duration-ms="1" started-at="2020-06-26T21:24:36Z" finished-at="2020-06-26T21:24:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodB -->
+        <test-method status="PASS" signature="letTestB()[pri:0, instance:GoogleGit.testB@47c62251]" name="letTestB" duration-ms="1" started-at="2020-06-26T21:24:36Z" finished-at="2020-06-26T21:24:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- letTestB -->
+        <test-method status="PASS" signature="afterMethodB()[pri:0, instance:GoogleGit.testB@47c62251]" name="afterMethodB" is-config="true" duration-ms="1" started-at="2020-06-26T21:24:36Z" finished-at="2020-06-26T21:24:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodB -->
+        <test-method status="PASS" signature="afterMethodA()[pri:0, instance:GoogleGit.testB@47c62251]" name="afterMethodA" is-config="true" duration-ms="0" started-at="2020-06-26T21:24:36Z" finished-at="2020-06-26T21:24:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodA -->
+        <test-method status="PASS" signature="afterClassA()[pri:0, instance:GoogleGit.testB@47c62251]" name="afterClassA" is-config="true" duration-ms="0" started-at="2020-06-26T21:24:36Z" finished-at="2020-06-26T21:24:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassA -->
+        <test-method status="PASS" signature="afterTestA()[pri:0, instance:GoogleGit.testA@3e6fa38a]" name="afterTestA" is-config="true" duration-ms="0" started-at="2020-06-26T21:24:36Z" depends-on-methods="GoogleGit.testB.afterTestB" finished-at="2020-06-26T21:24:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestA -->
+        <test-method status="PASS" signature="afterClassB()[pri:0, instance:GoogleGit.testB@47c62251]" name="afterClassB" is-config="true" duration-ms="0" started-at="2020-06-26T21:24:36Z" finished-at="2020-06-26T21:24:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassB -->
+        <test-method status="PASS" signature="afterTestB()[pri:0, instance:GoogleGit.testB@47c62251]" name="afterTestB" is-config="true" duration-ms="0" started-at="2020-06-26T21:24:36Z" finished-at="2020-06-26T21:24:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestB -->
+        <test-method status="PASS" signature="afterSuiteB()[pri:0, instance:GoogleGit.testB@47c62251]" name="afterSuiteB" is-config="true" duration-ms="0" started-at="2020-06-26T21:24:36Z" finished-at="2020-06-26T21:24:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteB -->
+        <test-method status="PASS" signature="afterSuiteA()[pri:0, instance:GoogleGit.testA@3e6fa38a]" name="afterSuiteA" is-config="true" duration-ms="0" started-at="2020-06-26T21:24:36Z" depends-on-methods="GoogleGit.testB.afterSuiteB" finished-at="2020-06-26T21:24:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteA -->
+      </class> <!-- GoogleGit.testB -->
+      <class name="GoogleGit.testA">
+        <test-method status="PASS" signature="beforeSuiteA()[pri:0, instance:GoogleGit.testA@3e6fa38a]" name="beforeSuiteA" is-config="true" duration-ms="10" started-at="2020-06-26T21:24:36Z" finished-at="2020-06-26T21:24:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteA -->
+        <test-method status="PASS" signature="beforeSuiteB()[pri:0, instance:GoogleGit.testB@47c62251]" name="beforeSuiteB" is-config="true" duration-ms="0" started-at="2020-06-26T21:24:36Z" depends-on-methods="GoogleGit.testA.beforeSuiteA" finished-at="2020-06-26T21:24:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteB -->
+        <test-method status="PASS" signature="beforeTestB()[pri:0, instance:GoogleGit.testB@47c62251]" name="beforeTestB" is-config="true" duration-ms="0" started-at="2020-06-26T21:24:36Z" depends-on-methods="GoogleGit.testA.beforeTestA" finished-at="2020-06-26T21:24:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestB -->
+        <test-method status="PASS" signature="beforeTestA()[pri:0, instance:GoogleGit.testA@3e6fa38a]" name="beforeTestA" is-config="true" duration-ms="0" started-at="2020-06-26T21:24:36Z" finished-at="2020-06-26T21:24:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestA -->
+        <test-method status="PASS" signature="beforeClassA()[pri:0, instance:GoogleGit.testA@3e6fa38a]" name="beforeClassA" is-config="true" duration-ms="0" started-at="2020-06-26T21:24:36Z" finished-at="2020-06-26T21:24:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassA -->
+        <test-method status="PASS" signature="letTestA()[pri:0, instance:GoogleGit.testA@3e6fa38a]" name="letTestA" duration-ms="3" started-at="2020-06-26T21:24:36Z" finished-at="2020-06-26T21:24:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- letTestA -->
+        <test-method status="PASS" signature="beforeMethodA()[pri:0, instance:GoogleGit.testA@3e6fa38a]" name="beforeMethodA" is-config="true" duration-ms="0" started-at="2020-06-26T21:24:36Z" finished-at="2020-06-26T21:24:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodA -->
+        <test-method status="PASS" signature="afterMethodA()[pri:0, instance:GoogleGit.testA@3e6fa38a]" name="afterMethodA" is-config="true" duration-ms="1" started-at="2020-06-26T21:24:36Z" finished-at="2020-06-26T21:24:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodA -->
+        <test-method status="PASS" signature="afterClassA()[pri:0, instance:GoogleGit.testA@3e6fa38a]" name="afterClassA" is-config="true" duration-ms="0" started-at="2020-06-26T21:24:36Z" finished-at="2020-06-26T21:24:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassA -->
+      </class> <!-- GoogleGit.testA -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
